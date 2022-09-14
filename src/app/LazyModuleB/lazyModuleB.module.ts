@@ -4,7 +4,7 @@ import { RouterModule } from '@angular/router';
 import { LazyModuleBComponent } from '../LazyModuleB/lazyModuleB.component';
 
 @NgModule({
-  declarations: [],
+  declarations: [LazyModuleBComponent],
   imports: [
     CommonModule,
     RouterModule.forChild([{ path: '', component: LazyModuleBComponent }]),
