@@ -8,8 +8,6 @@ import { LazyModuleAService } from './LazyModuleA/lazyModuleA.service';
   providers: [],
 })
 export class AppComponent {
-  title = 'devSession';
-
   constructor(private lazyService: LazyModuleAService) {
     console.log('lazy servis is ' + this.lazyService.id);
   }
